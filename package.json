@@ -1,0 +1,21 @@
+{
+  "name": "travistest",
+  "version": "0.1.0",
+  "author": "Chad Etzel <jazzychad@gmail.com>",
+  "description": "a test travis node_js repo",
+  "scripts": {
+    "test": "NODE_PATH=`pwd` expresso tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jazzychad/travistest.git"
+  },
+  "dependencies": {
+    "coffee-script": "*",
+    "expresso": "*"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  }
+}
